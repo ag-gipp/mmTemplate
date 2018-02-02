@@ -1,6 +1,6 @@
 # [mM]-Task
 ## Summary
-This task should be a starting point for you before you contributing to an [ag-gipp project](https://github.com/ag-gipp). We are using several techniques and tools to organize our development process. To keep it well structured and organized, every developer must be familiar with those tools before he/she is contributing new code. Please note that successfully finishing this task do not replace project specific contributing guidelines.
+This task should be a starting point for you before you contributing to an [ag-gipp project](https://github.com/ag-gipp). We are using several techniques and tools to organize our development process. To keep it well structured and organized, every developer must be familiar with those tools before he/she is contributing new code. Please note that successfully finishing this task does not replace project specific contributing guidelines.
 
 This project aims for two goals. One is to solve a problem programmatically, while the other one is to give you the understanding of our workflow and the tools we are using. The [task description](#task-description) explains the task you have to solve. Please follow each point of the [detailed instructions](#detailed-instructions) and at least get familiar with the tools in the [optional features](#optional-features) section. Note that most of the linked guides are comprehensive and way too big for your purposes. It's up to you to find the right dose of information you need.
 
