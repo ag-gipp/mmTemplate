@@ -9,7 +9,11 @@ Write a program in Java which takes an input text file and converts all the m's 
 
 https://staff.fnwi.uva.nl/t.h.koornwinder/art/informal/KLSadd.tex
 
-## Detailed Instructions
+## Detailed Instructions 
+
+<a href="https://github.com"><img align="right" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24"></a><a href="https://git-scm.com/"><img align="right" src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" height="24"></a>
+### Git & GitHub
+
 1. Create a GitHub account and send one of us ([mM-Task Supervisors](https://github.com/orgs/ag-gipp/teams/mm-tasksupervisor/members)) your username.
 2. Get familiar with the basics of [Git](https://git-scm.com/book/en/v2/) and [GitHub](https://guides.github.com/activities/hello-world) to achieve the following steps
     1. `Checkout` your project template on your local machine (do not make any changes directly on the GitHub page! Use your terminal or your IDE to work with Git, i.e., pull, commit, push changes.)
@@ -19,11 +23,17 @@ https://staff.fnwi.uva.nl/t.h.koornwinder/art/informal/KLSadd.tex
 
 _From now on, push every change to GitHub!_ 
 
+<a href="https://www.jetbrains.com/idea/"><img align="right" src="http://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" height="24"></a><a href="https://maven.apache.org/"><img align="right" src="https://maven.apache.org/images/maven-logo-black-on-white.png" height="24"></a>
+### Maven & IntelliJ
+
 3. Familiarize yourself with maven and create a new maven project for your task in your git repository. ([Maven in 5min](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html), [Introduction to Directory Layouts](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html))
 4. Set up an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) (we strongly recommend to use [IntelliJ](https://www.jetbrains.com/idea/download/)) for your maven project. 
     * __Tipp:__ if you are using IntelliJ, I recommend this order (maven first, IntelliJ second), because IntelliJ can import an existing maven project quickly, while the other way around can be a bit more tricky when you are new with IntelliJ. This only works when your `pom.xml` is correct. Another maybe helpful website is [IntelliJ's help page for maven](https://www.jetbrains.com/help/idea/maven.html). 
     * __Note:__ it might be obvious for some people, but please aware that starting your program in IntelliJ (pressing green arrow/run button) does not compile your project via maven! Maven is a separate lifecycle. You can control maven either from your terminal or in IntelliJ's [maven project tool window](https://www.jetbrains.com/help/idea/maven-projects-tool-window.html).
 5. Update your .gitignore for java and your IDE. Find out the best practice what should be ignored by your own.
+
+<a href="https://travis-ci.com/"><img align="right" src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" height="24"></a><a href="http://junit.org/junit5/"><img align="right" src="http://junit.org/junit5/assets/img/junit5-logo.png" height="24"></a>
+### JUnit & Travis
 
 Before you can start actually to develop your code, you should get familiar with the concepts of testing. ([Why Software Testing is Important](https://www.atlassian.com/blog/software-teams/why-software-testing-is-important))
 
@@ -32,6 +42,8 @@ Before you can start actually to develop your code, you should get familiar with
 8. Set up Travis as your continues integration service for your project ([Travis for Beginners](http://docs.travis-ci.com/user/for-beginners/)). Make sure Travis automatically runs your tests when you push new code to GitHub ([Travis setup Java](http://docs.travis-ci.com/user/languages/java/)). 
     * __Tip:__ this is usually achieved by telling Travis to compile the project with maven. When the maven tests failed, Travis failed to build your project.
 9. Adding the [travis embedding status image](https://docs.travis-ci.com/user/status-images/) to your README.md, so it appears on your project website on GitHub and everybody can quickly see if your tests run or fail.
+
+### Programming with Java
 
 Finally, you can start to solve the task. Before you start, please note the [optional features](#optional-features) below. They might be redundant, especially when you see that we are not always using them for our actual projects. However, it is good programming practice and 1. and 2. will become officially part of the contributing guidelines in the future for all [ag-gipp projects](https://github.com/ag-gipp).
 
