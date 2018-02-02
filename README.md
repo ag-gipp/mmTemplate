@@ -11,7 +11,7 @@ https://staff.fnwi.uva.nl/t.h.koornwinder/art/informal/KLSadd.tex
 
 ## Detailed Instructions 
 
-<a href="https://github.com"><img align="right" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24"></a><a href="https://git-scm.com/"><img align="right" src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" height="24"></a>
+<a href="https://github.com"><img align="right" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="28"></a><a href="https://git-scm.com/"><img align="right" src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" height="28"></a>
 ### Git & GitHub
 
 1. Create a GitHub account and send one of us ([mM-Task Supervisors](https://github.com/orgs/ag-gipp/teams/mm-tasksupervisor/members)) your username.
@@ -23,7 +23,7 @@ https://staff.fnwi.uva.nl/t.h.koornwinder/art/informal/KLSadd.tex
 
 _From now on, push every change to GitHub!_ 
 
-<a href="https://www.jetbrains.com/idea/"><img align="right" src="http://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" height="24"></a><a href="https://maven.apache.org/"><img align="right" src="https://maven.apache.org/images/maven-logo-black-on-white.png" height="24"></a>
+<a href="https://www.jetbrains.com/idea/"><img align="right" src="http://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png" height="28"></a><a href="https://maven.apache.org/"><img align="right" src="https://maven.apache.org/images/maven-logo-black-on-white.png" height="28"></a>
 ### Maven & IntelliJ
 
 3. Familiarize yourself with maven and create a new maven project for your task in your git repository. ([Maven in 5min](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html), [Introduction to Directory Layouts](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html))
@@ -32,7 +32,7 @@ _From now on, push every change to GitHub!_
     * __Note:__ it might be obvious for some people, but please aware that starting your program in IntelliJ (pressing green arrow/run button) does not compile your project via maven! Maven is a separate lifecycle. You can control maven either from your terminal or in IntelliJ's [maven project tool window](https://www.jetbrains.com/help/idea/maven-projects-tool-window.html).
 5. Update your .gitignore for java and your IDE. Find out the best practice what should be ignored by your own.
 
-<a href="https://travis-ci.com/"><img align="right" src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" height="24"></a><a href="http://junit.org/junit5/"><img align="right" src="http://junit.org/junit5/assets/img/junit5-logo.png" height="24"></a>
+<a href="https://travis-ci.com/"><img align="right" src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" height="28"></a><a href="http://junit.org/junit5/"><img align="right" src="http://junit.org/junit5/assets/img/junit5-logo.png" height="28"></a>
 ### JUnit & Travis
 
 Before you can start actually to develop your code, you should get familiar with the concepts of testing. ([Why Software Testing is Important](https://www.atlassian.com/blog/software-teams/why-software-testing-is-important))
@@ -43,6 +43,8 @@ Before you can start actually to develop your code, you should get familiar with
     * __Tip:__ this is usually achieved by telling Travis to compile the project with maven. When the maven tests failed, Travis failed to build your project.
 9. Adding the [travis embedding status image](https://docs.travis-ci.com/user/status-images/) to your README.md, so it appears on your project website on GitHub and everybody can quickly see if your tests run or fail.
 
+
+<a href="http://www.oracle.com/technetwork/java/index.html"><img align="right" src="https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png" height="32"></a>
 ### Programming with Java
 
 Finally, you can start to solve the task. Before you start, please note the [optional features](#optional-features) below. They might be redundant, especially when you see that we are not always using them for our actual projects. However, it is good programming practice and 1. and 2. will become officially part of the contributing guidelines in the future for all [ag-gipp projects](https://github.com/ag-gipp).
@@ -56,6 +58,8 @@ _From now on, regularly update your test cases when you developing new code or p
     3. and your program produces an exact copy of the input file, except for the swapped letters `m` and `M`.
 12. Finally, please send your supervisor the input, the output, and also the program with instructions on how to run it. 
 
+
+<a href="https://medium.com/@rshariffdeen/how-to-tdd-eca446f0bbdb"><img align="right" src="https://cdn-images-1.medium.com/max/1600/1*kHWRvTO6AM0dRqv9de9yKQ.jpeg" height="28"></a><a href="http://checkstyle.sourceforge.net/"><img align="right" src="http://checkstyle.sourceforge.net/images/logo.png" height="28"></a><a href="https://logging.apache.org/log4j/2.x/"><img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Apache_Log4j_Logo.png/1200px-Apache_Log4j_Logo.png" height="28"></a>
 ## Optional Features
 The following features are optional but strongly improves your code quality and help everybody to debug and read your code. Most (but not all) of our projects already using those tools. Already implementing them in your current task solution will be highly appreciated.
 1. Get familiar with logging via Log4j2 ([Log4j2 Best Practicing](https://examples.javacodegeeks.com/enterprise-java/log4j/log4j-2-best-practices-example/)). Preferably, use `XML` to configure your logging. ([Log4j2 Configuration](https://logging.apache.org/log4j/2.x/manual/configuration.html))
